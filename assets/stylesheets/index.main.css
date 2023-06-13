@@ -1,0 +1,359 @@
+html {
+    scroll-behavior: smooth;
+    overflow: visible;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home {
+    padding-top: 200px !important;
+    background-color: #FE50A9;
+    height: 100vh;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.about {
+    padding-top: 200px;
+    background-color: #FE50A9;
+    height: 100vh;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.yellow-ellipse {
+    height: 72px !important; 
+    width: 29px !important;
+    margin-left: 10px;
+}
+
+.about-white-star {
+    position: absolute;
+    top: 73%;
+    left: 53%;
+}
+
+.about-white-star-2 {
+    position: absolute;
+    top: 49%;
+    left: 90%;
+    transform: rotate(76deg);
+}
+
+.about-ellipse-white-donut {
+    position: absolute;
+    top: 3%;
+    left: 10%
+}
+
+.about-ellipse-blue {
+    position: absolute;
+    top: 104%;
+    left: 11%;
+    transform: scale(9);
+}
+
+.about-ellipse-blue-2 {
+    position: absolute;
+    transform: scale(5);
+    top: -4%;
+    left: 76%;
+}
+
+.about-star-5 {
+    position: absolute;
+    top: 92%;
+    left: 73%;
+    z-index: 5;
+}
+
+
+.about-title {
+    /* font-family: "MagicRetro"; */
+    /* font-family: 'Candal', sans-serif; */
+    font-family: 'Rammetto One', cursive;
+    font-size: 68px;
+    color: white;
+}
+
+.about-remarks {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.about-me {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 59px;
+}
+
+.about-link {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFE11C;
+}
+
+.about-link:hover {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1B5ACC;
+}
+
+.inner-about {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    gap: 0px 30px;
+}
+
+.inner-about img {
+    height: 470px;
+    width: 313px;
+}
+
+.portfolio {
+    padding-top: 150px;
+    background-color: #FFE11C;
+    height: 100vh;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.portfolio > p {
+    margin: 0;
+    font-size: 50px;
+    /* font-family: "MagicRetro"; */
+    /* font-family: 'Candal', sans-serif; */
+    font-family: 'Rammetto One', cursive;
+}
+
+.portfolio-star-1 {
+    position: absolute;
+    top: 43%;
+    left: 6%;
+    transform: rotate(82deg);
+    height: 59px;
+    width: auto;
+}
+
+.portfolio-star-2 {
+    position: absolute;
+    transform: rotate(117deg);
+    height: 59px;
+    width: auto;
+    top: 96%;
+    left: 96%;
+}
+
+.portfolio-blue-ellipse {
+    height: 72px;
+    width: 29px;
+    margin-left: 10px;
+}
+
+.portfolio-circle-text {
+    position: absolute;
+    margin-left: -25% !important;
+    margin-top: -16% !important;
+    transform: rotate(161deg);
+}
+
+.portfolio-circle-text-2 {
+    position: absolute;
+    margin-left: 52% !important;
+    margin-top: 0% !important;
+    transform: rotate(358deg);
+    z-index: 1;
+}
+
+.portfolio-circle-text-3 {
+    position: absolute;
+    margin-left: -7% !important;
+    margin-top: 37% !important;
+    transform: rotate(145deg);
+    z-index: 1;
+}
+
+.project-title {
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.project-industry {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.project-remark {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-bottom: 10px;
+}
+
+.double-arrow {
+    position: absolute;
+    right: -45px;
+    display: flex;
+    flex-direction: column;
+    top: 37%
+}
+
+.project-down-arrow {
+    transform: rotate(180deg);
+}
+
+.contact {
+    padding-top: 200px;
+    background-color: #1B5ACC;
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* padding-bottom: 50px; */
+    /* font-family: "MagicRetro"; */
+    /* font-family: 'Candal', sans-serif; */
+    font-family: 'Rammetto One', cursive;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-project {
+    background-color: white;
+    height: 554px;
+    width: 950px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 21px;
+    padding-bottom: 25px;  
+    margin-left: 35px;
+    border-radius: 24px;
+    position: relative;
+    z-index: 3;
+}
+
+.project-info {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+    padding-bottom: 40px;
+}
+
+.project-info > img {
+    height: 70px;
+    width: 70px;
+}
+
+.project-description {
+    padding-right: 54px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.project-description p {
+    margin-top: 0;
+}
+
+.project-attachment a {
+    color: #FE50A9;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.project-attachment a:hover {
+    color: #1B5ACC;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.home img {
+    width: 100%;
+}
+
+.about div {
+    width: 100%;
+}
+
+.right-side {
+    text-align: right;
+}
+
+.contact .contact-details {
+    margin-top: 50px;
+}
+
+.contact > div {
+    font-size: 50px;
+    color: #FFE11C;
+}
+
+.card-project > .project {
+    display: flex;
+}
+
+.project-header {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.project-header > p {
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.project-header a {
+    text-decoration: none;
+}
+
+.project > img {
+    margin-right: 50px;
+}
+
+.contact-sub-text {
+    font-family: "Trebuchet MS" !important;
+    font-size: 20px !important;
+}
+
+.pink-ellipse {
+    height: 72px;
+    width: 29px;
+    margin-left: 10px;
+}
+
+.contact-white-star {
+    position: absolute;
+    top: 70%;
+    left: 24%;
+}
+
+.contact-pink-ellipse-large {
+    position: absolute;
+    top: 6%;
+    left: 91%;
+    height: 241px;
+    width: 274px;
+}
+
+@font-face {
+    font-family: 'MagicRetro';
+    src: url(../font/Magic-Retro.ttf) format('truetype');
+}
