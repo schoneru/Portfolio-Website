@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     overflow: visible;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "montserrat";
 }
 
 body {
@@ -49,28 +49,28 @@ body {
 
 .about-ellipse-white-donut {
     position: absolute;
-    top: 3%;
-    left: 10%
+    top: 6%;
+    left: 8%
 }
 
 .about-ellipse-blue {
     position: absolute;
     top: 104%;
-    left: 11%;
+    left: 13%;
     transform: scale(9);
 }
 
 .about-ellipse-blue-2 {
     position: absolute;
     transform: scale(5);
-    top: -4%;
-    left: 76%;
+    top: -5%;
+    left: 72%;
 }
 
 .about-star-5 {
     position: absolute;
     top: 92%;
-    left: 73%;
+    left: 82%;
     z-index: 5;
 }
 
@@ -78,7 +78,8 @@ body {
 .about-title {
     /* font-family: "MagicRetro"; */
     /* font-family: 'Candal', sans-serif; */
-    font-family: 'Rammetto One', cursive;
+    /* font-family: 'Rammetto One', cursive; */
+    font-family: "Brice", semibold;
     font-size: 68px;
     color: white;
 }
@@ -94,7 +95,8 @@ body {
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 400;
     font-size: 20px;
-    margin-right: 59px;
+    margin-right: 60px;
+    margin-bottom: 30px;
 }
 
 .about-link {
@@ -113,9 +115,9 @@ body {
 
 .inner-about {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     height: fit-content;
-    gap: 0px 30px;
+    gap: 0px 46px;
 }
 
 .inner-about img {
@@ -135,10 +137,11 @@ body {
 
 .portfolio > p {
     margin: 0;
-    font-size: 50px;
+    font-size: 68px;
     /* font-family: "MagicRetro"; */
     /* font-family: 'Candal', sans-serif; */
-    font-family: 'Rammetto One', cursive;
+    /* font-family: 'Rammetto One', cursive; */
+    font-family: "Brice", semibold;
 }
 
 .portfolio-star-1 {
@@ -167,9 +170,9 @@ body {
 
 .portfolio-circle-text {
     position: absolute;
-    margin-left: -25% !important;
-    margin-top: -16% !important;
-    transform: rotate(161deg);
+    margin-left: -22% !important;
+    margin-top: -14% !important;
+    transform: rotate(162deg);
 }
 
 .portfolio-circle-text-2 {
@@ -183,8 +186,8 @@ body {
 .portfolio-circle-text-3 {
     position: absolute;
     margin-left: -7% !important;
-    margin-top: 37% !important;
-    transform: rotate(145deg);
+    margin-top: 38% !important;
+    transform: rotate(142deg);
     z-index: 1;
 }
 
@@ -229,7 +232,7 @@ body {
     /* padding-bottom: 50px; */
     /* font-family: "MagicRetro"; */
     /* font-family: 'Candal', sans-serif; */
-    font-family: 'Rammetto One', cursive;
+    font-family: 'Brice', semibold;
     position: relative;
     overflow: hidden;
 }
@@ -284,7 +287,9 @@ body {
 }
 
 .home img {
-    width: 100%;
+    margin-left: -3%;
+    margin-top: -4%;
+    width: 103%;
 }
 
 .about div {
@@ -295,12 +300,20 @@ body {
     text-align: right;
 }
 
-.contact .contact-details {
-    margin-top: 50px;
+.left-side {
+    margin-left: 65%;
+    text-align: left;
 }
 
+.contact .contact-details {
+    font-size: 52px;
+    letter-spacing: 0.5;
+    margin-top: 100px;
+}
+
+
 .contact > div {
-    font-size: 50px;
+    font-size: 76px;
     color: #FFE11C;
 }
 
@@ -310,7 +323,8 @@ body {
 
 .project-header {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
+    margin-top: 5px;
 }
 
 .project-header > p {
@@ -329,8 +343,8 @@ body {
 }
 
 .contact-sub-text {
-    font-family: "Trebuchet MS" !important;
-    font-size: 20px !important;
+    font-family: "Montserrat" !important;
+    font-size: 16px !important;
 }
 
 .pink-ellipse {
@@ -356,4 +370,14 @@ body {
 @font-face {
     font-family: 'MagicRetro';
     src: url(../font/Magic-Retro.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Brice';
+    src: url(../font/Brice-SemiBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Brice';
+    src: url(../font/Brice-Black.otf) format('opentype');
 }
